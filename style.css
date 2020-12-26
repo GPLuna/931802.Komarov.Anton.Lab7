@@ -1,0 +1,21 @@
+#buttons{
+  display: flex;
+  z-index: 2;
+}
+
+#buttons > button{
+  z-index: 3;
+}
+
+canvas{
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: inline-block;
+  position: absolute;
+  z-index: 0;
+}
+
+input{
+  z-index: 2;
+}
